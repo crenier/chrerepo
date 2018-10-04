@@ -31,7 +31,7 @@
                     }
                 },
                 {
-                    "name": "chre-newvm02",
+                    "name": "chre-newvm021",
                     "vmSize": "Standard_B2s",
                     "sku": "2016-Datacenter-smalldisk",
                     "osDiskSize": 64,
