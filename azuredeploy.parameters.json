@@ -6,13 +6,13 @@
             "value": "nw-CHRE"
         },
         "virtualNetworkResourceGroup": {
-            "value": "rg-chre-youngsters-vnet"
+            "value": "rg-chre-vmtest"
         },
         "subnetName": {
-            "value": "dev"
+            "value": "default"
         },
         "availabilitySetName": {
-            "value": "chre-youngsters-as"
+            "value": "CHRE-webset"
         },
         "virtualMachines": {
             "value": [
