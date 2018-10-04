@@ -41,7 +41,7 @@
                         "EnvironmentType": "Dev",
                         "Application": "Multiple VMs",
                         "TechnicalOwner": "chre@xylos.com",
-                        "Importance": "low"
+                        "Importance": "high"
                     }
                 }
             ]
