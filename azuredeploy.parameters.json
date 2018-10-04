@@ -3,21 +3,21 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualNetworkName": {
-            "value": "vnet-geba-youngsters"
+            "value": "nw-CHRE"
         },
         "virtualNetworkResourceGroup": {
-            "value": "rg-geba-youngsters-vnet"
+            "value": "rg-chre-youngsters-vnet"
         },
         "subnetName": {
             "value": "dev"
         },
         "availabilitySetName": {
-            "value": "geba-youngsters-as"
+            "value": "chre-youngsters-as"
         },
         "virtualMachines": {
             "value": [
                 {
-                    "name": "newvm01",
+                    "name": "chre-newvm01",
                     "vmSize": "Standard_B2s",
                     "sku": "2016-Datacenter-smalldisk",
                     "osDiskSize": 64,
@@ -26,12 +26,12 @@
                         "Environment": "Infra",
                         "EnvironmentType": "Dev",
                         "Application": "Multiple VMs",
-                        "TechnicalOwner": "geba@xylos.com",
+                        "TechnicalOwner": "chre@xylos.com",
                         "Importance": "low"
                     }
                 },
                 {
-                    "name": "newvm02",
+                    "name": "chre-newvm02",
                     "vmSize": "Standard_B2s",
                     "sku": "2016-Datacenter-smalldisk",
                     "osDiskSize": 64,
@@ -40,7 +40,7 @@
                         "Environment": "Infra",
                         "EnvironmentType": "Dev",
                         "Application": "Multiple VMs",
-                        "TechnicalOwner": "geba@xylos.com",
+                        "TechnicalOwner": "chre@xylos.com",
                         "Importance": "low"
                     }
                 }
@@ -54,7 +54,7 @@
                 "Environment": "Infra",
                 "EnvironmentType": "Dev",
                 "Application": "Multiple VMs",
-                "TechnicalOwner": "geba@xylos.com",
+                "TechnicalOwner": "chre@xylos.com",
                 "Importance": "low"
             }
         }
